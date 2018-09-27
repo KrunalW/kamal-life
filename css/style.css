@@ -149,9 +149,9 @@ Who we are
 =====================================================*/
 
 .whiteFlex-left{position: relative;}
-.whiteFlex-left::before{position: absolute; content: "";width: 100%; top:0; bottom: 0; background: linear-gradient(to right, rgb(255, 255, 255) , rgba(255, 255, 255, 0.94) ,rgba(255, 255, 255, 0));}
+.whiteFlex-left::before{position: absolute; content: ""; width: 100%; top:0; bottom: 0; background: linear-gradient(to right, rgb(255, 255, 255) , rgba(255, 255, 255, 0.94) ,rgba(255, 255, 255, 0));}
 .whiteFlex-right{position: relative;}
-.whiteFlex-right::before{position: absolute; content: "";width: 100%; top:0; bottom: 0; background: linear-gradient(to left, rgb(255, 255, 255) , rgba(255, 255, 255, 0.94) ,rgba(255, 255, 255, 0));}
+.whiteFlex-right::before{position: absolute; content: ""; width: 100%; top:0; bottom: 0; background: linear-gradient(to left, rgb(255, 255, 255) , rgba(255, 255, 255, 0.94) ,rgba(255, 255, 255, 0));}
 
 .parallax{/* Set a specific height */
     /* min-height: 630px; */
@@ -190,14 +190,14 @@ Who we are
     right: 0;
     margin: auto;} */
   .contactUs  .contentBox h2{color: #FFFFFF;}
-.contentBox p{font-size: 16px; line-height: 30px; color:#000;}
+.contentBox p{font-size: 18px; line-height: 30px; color:#000;}
 .contentBox ol{width: 70%; margin: 0 auto; text-align: left; font-size: 16px;}
 .contentBox ol li{padding-bottom: 10px;}
 .contentBox.black-font{color: #202020;}
 
 .contentBox h4{margin-bottom: 20px;}
 .contentBox .thumbnail{border:none;}
-.contentBox .thumbnail p{color: #00a859; text-transform: uppercase; margin-top: 10px;}
+.contentBox .thumbnail p{color: #00a859; text-transform: uppercase; margin-top: 10px;font-size: 24px;}
 
 
 
@@ -302,7 +302,7 @@ Who we are
 About
 =====================================================*/
 .marginBottom-innerBox{margin-bottom: 100px;}
-.innerImgBox{background-position: top;background-repeat: no-repeat; background-size: cover; min-height: 321px; position: relative;}
+.innerImgBox{background-position: top;background-repeat: no-repeat; background-size: cover; min-height:460px; position: relative;}
 
 .innerImgBox h1{position: absolute; bottom:0 ;}
 .about{background-image: url(../images/about-us.jpg);}
@@ -333,12 +333,13 @@ About
 }
 .boxTranspary{background: rgb(0, 168, 89); padding: 40px; margin: 40px;}
 .boxTranspary h3{margin-top: 0; color: #FFF;}
-.boxTranspary h6{color: #FFF; text-transform: uppercase;}
+.boxTranspary h6{color: #FFF; text-transform: uppercase;line-height: 25px;font-size: 14px;}
 .border-topGreen{border-top: 1px solid #00a859;}
 
+.thumbnail>img{width: auto;}
 
 @media screen and (min-width: 768px){
-    .innerImgBox{min-height: 321px;}
+    .innerImgBox{min-height: 460px;}
     .about02 .list-group{width: 50%; margin: auto;}
     }
 @media screen and (min-width: 1920px){
@@ -358,22 +359,7 @@ Footer
 footer{background: #121212; color: #FFF; padding-top: 15px; padding-bottom: 15px}
 footer p{margin: 0;}
 footer .social{position: absolute;right: 0; top: -35px;}
-footer .social a{border-radius: 50%;
-    color: #FFF;
-    font-size: 22px;
-    display: inline-block;
-    width: 40px;
-    height: 40px;
-    text-align: center;
-    padding: 5px;
-    background: #eb2f5b;margin-left: 15px; position: relative;}
-    footer .social a:after{border: 1px solid;
-        content: "";
-        position: absolute;
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        top: -5px;
-        left: -5px;}
+footer .social a{border-radius: 50%; color: #FFF; font-size: 22px; display: inline-block; width: 40px; height: 40px; text-align: center; padding: 5px; background: #eb2f5b;margin-left: 15px; position: relative;}
+footer .social a:after{border: 1px solid; content: ""; position: absolute; width: 50px; height: 50px; border-radius: 50%; top: -5px; left: -5px;}
 .fa-facebook-square:hover{color: #4867aa;}
 .fa-linkedin:hover{color:#0077b5}
