@@ -68,9 +68,7 @@ header{box-shadow: 0px 0px 10px 0px #585858; position: relative; z-index: 1;}
     -webkit-transform: scale(2);
     transform: scale(2);
   }
-
-  
-    
+  .relative{position: relative;}
 
 @media screen and (min-width: 768px){
     .col-5{width: 20%; float: left;}
@@ -85,7 +83,7 @@ Bootsrap edit
 .navbar-default{background-color: #ffffff;}
 .navbar{min-height: 110px;margin-bottom:0}
 .navbar-brand{height: 110px; padding: 10px 15px;}
-.navbar-default .navbar-nav>li>a{text-transform: uppercase; color: #3e3e3e;font-size: 18px;margin-top: 28px;}
+.navbar-default .navbar-nav>li>a{text-transform: uppercase; color: #3e3e3e;font-size: 18px;}
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
     color: #ee2f5b;
     background-color: transparent;
@@ -101,6 +99,9 @@ Bootsrap edit
     }
 .navbar-brand>img{width: 120px;}
 
+}
+@media screen and (min-width: 768px){
+    .navbar-default .navbar-nav>li>a{margin-top: 28px;}
 }
 
 /*!===================================================
@@ -180,16 +181,8 @@ Who we are
 
 .contentBox{padding: 70px 20px; color: #FFF;}
 .contentBox h2{text-transform: uppercase;font-size: 40px; position: relative;margin-bottom: 35px; color: #000; text-align: center;}
-/* .contentBox h2::after{content: "";
-    height: 6px;
-    width: 80px;
-    position: absolute;
-    background: #eb2f5b;
-    bottom: -12px;
-    left: 0;
-    right: 0;
-    margin: auto;} */
-  .contactUs  .contentBox h2{color: #FFFFFF;}
+
+.contactUs .contentBox h2{color: #FFFFFF;}
 .contentBox p{font-size: 18px; line-height: 30px; color:#000;}
 .contentBox ol{width: 70%; margin: 0 auto; text-align: left; font-size: 16px;}
 .contentBox ol li{padding-bottom: 10px;}
@@ -198,21 +191,14 @@ Who we are
 .contentBox h4{margin-bottom: 20px;}
 .contentBox .thumbnail{border:none;}
 .contentBox .thumbnail p{color: #00a859; text-transform: uppercase; margin-top: 10px;font-size: 24px;}
-
-
-
 .circleContainer {position: absolute; margin: auto; left: 0; right: 0; margin-top: -8%; z-index: 1;}
 
-.circleBox{position: relative; display: block; text-align: center;border-radius: 50%;
-    width: 200px;
-    margin: auto;}
+.circleBox{position: relative; display: block; text-align: center;border-radius: 50%; width: 200px; margin: auto;}
 .circleBox img{width: 100%; border-radius: 50%; border: 5px solid rgba(255, 255, 255, 0.6); box-shadow: 0 0 10px #757575;}
 .circleBox .captionBox{position: absolute; left: 14px; right: 14px; top: 0; bottom: 0; height: 50px; margin: auto;text-align: center;}
-.circleBox .captionBox p{margin: 0;color: #FFFFFF; padding: 15px; text-transform: uppercase;font-weight: bold; 
-    font-size: 18px;}
-/* .circleContainer.small5{
-    margin-top: 10px;
-} */
+.circleBox .captionBox p{margin: 0;color: #FFFFFF; padding: 15px; text-transform: uppercase;font-weight: bold; font-size: 18px;}
+.captionBox{padding: 15px; text-transform: uppercase;font-size: 16px;margin: 0;}
+
 .circleContainer.small5 .circleBox .captionBox{height: 30px;}
 .circleContainer.small5 .circleBox .captionBox p{padding: 6px;  font-size: 12px;}
 .col-5 .circleBox .captionBox{height: 80px;}
@@ -222,8 +208,7 @@ Who we are
     .contentBox h2{font-size: 30px;}
     .contentBox ol{width: 100%;}
     .circleContainer{position: static; margin: 0;}
-    .circleBox{margin-top: 15px;
-        margin-bottom: 15px;}
+    .circleBox{margin-top: 15px; margin-bottom: 15px;}
 }
 @media(min-width:1920px){
     .circleContainer{margin-top: -5.2%;}
@@ -252,21 +237,10 @@ Who we are
     font-weight: 600;
 }
 
-.contact-us-detail:hover {
-	background-color: #f7639a;
-}
-
-.contact-us-detail a {
-	color: #ffffff;
-}
-
-.contact-us-detail a:hover {
-	color: #ffffff;
-}
-
-.contact-us .form-group {
-	margin-bottom: 25px;
-}
+.contact-us-detail:hover {background-color: #f7639a;}
+.contact-us-detail a {color: #ffffff;}
+.contact-us-detail a:hover {color: #ffffff;}
+.contact-us .form-group {margin-bottom: 25px;}
 
 .contact-us .form-control {
 	border: 2px solid transparent;
@@ -337,14 +311,19 @@ About
 
 .thumbnail>img{width: auto;}
 
+
+
 @media screen and (min-width: 768px){
     .innerImgBox{min-height: 460px;}
     .about02 .list-group{width: 50%; margin: auto;}
-    }
+    .lefsideMenu{position: absolute; left: 0; background: #eb2f5b; color: #FFF; width: 330px; padding-left: 50px; height: 100%;}
+    .lefsideMenu .nav>li>a, .lefsideMenu .nav>li>ul>li{list-style: none;}
+    .lefsideMenu .nav>li>a, .lefsideMenu .nav>li>ul>li>a{color: #FFF;}
+    .lefsideMenu .nav>li>a:focus, .lefsideMenu .nav>li>a:hover{background-color: transparent; color: #FFF}
+}
 @media screen and (min-width: 1920px){
     .innerImgBox{min-height: 680px;}
 }
-
 
 /*!===================================================
 Contact Us
