@@ -306,7 +306,6 @@ About
 
 .innerImgBox h1{position: absolute; bottom:0 ;}
 .about{background-image: url(../images/about-us.jpg);}
-.about02{background-image: url(../images/about-us02.jpg);}
 .about02 h4{margin-bottom: 25px}
 .about02 .list-group-item{margin-bottom: 15px; }
 .about02 .list-group-item:first-child, .about02 .list-group-item:last-child{border-radius: 0;}
@@ -356,7 +355,11 @@ Contact Us
 /*!===================================================
 Footer
 =====================================================*/
-footer{background: #121212; color: #FFF; padding-top: 15px; padding-bottom: 15px}
+footer{color: #FFF;}
+footer .footer-links{background: #2d2d2d;}
+footer .footer-links .nav>li>a{color: #797979;}
+footer .footer-links .nav>li>a:focus, footer .footer-links .nav>li>a:hover{background-color:transparent;}
+footer .footer-bottom{background: #121212;  padding-top: 15px; padding-bottom: 15px}
 footer p{margin: 0;}
 footer .social{position: absolute;right: 0; top: -35px;}
 footer .social a{border-radius: 50%; color: #FFF; font-size: 22px; display: inline-block; width: 40px; height: 40px; text-align: center; padding: 5px; background: #eb2f5b;margin-left: 15px; position: relative;}
