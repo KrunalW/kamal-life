@@ -316,10 +316,13 @@ About
 @media screen and (min-width: 768px){
     .innerImgBox{min-height: 460px;}
     .about02 .list-group{width: 50%; margin: auto;}
-    .lefsideMenu{position: absolute; left: 0; background: #eb2f5b; color: #FFF; width: 330px; padding-left: 50px; height: 100%;}
+    .lefsideMenu{background: #eb2f5b; color: #FFF; padding-left: 50px; padding-top: 50px;position: absolute;height: 100%; left: -33.5%; width: 35%;}
     .lefsideMenu .nav>li>a, .lefsideMenu .nav>li>ul>li{list-style: none;}
-    .lefsideMenu .nav>li>a, .lefsideMenu .nav>li>ul>li>a{color: #FFF;}
+    .lefsideMenu .nav>li>a{color: #FFF; font-size: 20px;}
+    .lefsideMenu .nav>li>ul>li>a{color: #FFF;}
     .lefsideMenu .nav>li>a:focus, .lefsideMenu .nav>li>a:hover{background-color: transparent; color: #FFF}
+    .businessImgBox img{width: 150px;}
+    .businessImgBox p {font-size: 16px;}
 }
 @media screen and (min-width: 1920px){
     .innerImgBox{min-height: 680px;}
