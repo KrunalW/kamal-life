@@ -414,7 +414,13 @@ About
 
 .thumbnail>img{width: 160px;}
 
-.lefsideMenu ul :not(collapsed) .arrow:before,
+
+
+@media screen and (min-width: 768px){
+    .innerImgBox{min-height: 460px;}
+    .about02 .list-group{width: 50%; margin: auto;}
+    .lefsideMenu{background: #eb2f5b; color: #FFF; padding-left: 50px; padding-right: 20px; padding-top: 50px; position: absolute; height: 100%; left: -33.5%; width: 35%; overflow-y: auto;}
+    .lefsideMenu ul :not(collapsed) .arrow:before,
 .lefsideMenu li :not(collapsed) .arrow:before {
   font-family: 'Font Awesome 5 Free';
   content: "\f13a";
@@ -422,11 +428,6 @@ About
   vertical-align: middle;
   font-weight: 900;
 }
-
-@media screen and (min-width: 768px){
-    .innerImgBox{min-height: 460px;}
-    .about02 .list-group{width: 50%; margin: auto;}
-    .lefsideMenu{background: #eb2f5b; color: #FFF; padding-left: 50px; padding-right: 20px; padding-top: 50px;position: absolute;height: 100%; left: -33.5%; width: 35%;}
     .lefsideMenu .nav>li>a, .lefsideMenu .nav>li>ul>li{list-style: none;}
     .lefsideMenu .nav>li>ul>li{padding: 5px;}
     .lefsideMenu .nav>li>a{color: #FFF; font-size: 20px;}
