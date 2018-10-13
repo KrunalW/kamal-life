@@ -173,7 +173,7 @@ header{box-shadow: 0px 0px 10px 0px #585858; position: relative; z-index: 1;}
     text-align: center;
   }
 }  
-@media (min-width: 1200px) {
+@media (min-width: 768px) {
 .business-pg .carousel-inner, .business-pg .carousel-inner>.item>img{height: 460px;}
 }
 @media (min-width: 1920px) {
