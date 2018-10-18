@@ -332,7 +332,7 @@ Who we are
 .circleBox{position: relative; display: block; text-align: center;border-radius: 50%; width: 200px; margin: auto;}
 .circleBox img{width: 100%; border-radius: 50%; border: 5px solid rgba(255, 255, 255, 0.6); box-shadow: 0 0 10px #757575;}
 .circleBox .captionBox{position: absolute; left: 14px; right: 14px; top: 0; bottom: 0; height: 50px; margin: auto;text-align: center;}
-.circleBox .captionBox p{margin: 0;color: #FFFFFF; padding: 15px; text-transform: uppercase;font-weight: bold; font-size: 18px;}
+.circleBox .captionBox p{margin: 0;color: #FFFFFF; padding: 5px; text-transform: uppercase;font-weight: bold; font-size: 18px;}
 .captionBox{padding: 15px; text-transform: uppercase;font-size: 16px;margin: 0;}
 
 .circleContainer.small5 .circleBox .captionBox{height: 30px;}
