@@ -335,6 +335,44 @@ Who we are
 .circleBox .captionBox p{margin: 0;color: #FFFFFF; padding: 5px; text-transform: uppercase;font-weight: bold; font-size: 18px;}
 .captionBox{padding: 15px; text-transform: uppercase;font-size: 16px;margin: 0;}
 
+@media screen and (min-width: 768px){
+    .contentBox .nav-justified{
+        overflow: hidden;
+        width: 685px;
+        overflow-x: auto;
+    }
+}
+@media screen and (min-width: 1200px){
+    .contentBox .nav-justified{
+        width: 876px;
+    }
+}
+@media screen and (min-width: 1366px){
+    .contentBox .nav-justified{
+        width: 942px;
+    }
+}
+@media screen and (min-width: 1440px){
+    .contentBox .nav-justified{
+        width: 998px;
+    }
+}
+@media screen and (min-width: 1680px){
+    .contentBox .nav-justified{
+        width: 1176px;
+    }
+}
+@media screen and (min-width: 1920px){
+    .contentBox .nav-justified{
+        width: 1357px;
+    }
+}
+@media screen and (min-width: 2019px){
+    .contentBox .nav-justified{
+        width: auto;
+    }
+}
+
 .circleContainer.small5 .circleBox .captionBox{height: 30px;}
 .circleContainer.small5 .circleBox .captionBox p{padding: 6px;  font-size: 12px;}
 .col-5 .circleBox .captionBox{height: 80px;}
